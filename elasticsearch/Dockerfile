@@ -1,6 +1,5 @@
 # https://github.com/elastic/elasticsearch-docker
-FROM https://hub.docker.com/_/elasticsearch
-
+FROM elasticsearch
 RUN chmod -R 0777 /usr/share/elasticsearch
 
 # Add your elasticsearch plugins setup here
